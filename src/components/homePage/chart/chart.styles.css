@@ -1,0 +1,37 @@
+.pieChart1 {
+  margin-top: 2rem;
+  margin-left: 20rem;
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: conic-gradient(pink 100deg, lightblue 0 235deg);
+}
+
+.pieChart2 {
+  margin-top: 2rem;
+  margin-left: 40rem;
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: conic-gradient(pink 280deg, lightblue 0 235deg);
+}
+
+.pieChart3 {
+  margin-top: 2rem;
+  margin-left: 60rem;
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: conic-gradient(#000 300deg, gray 0 235deg);
+}
+
+.chart_p {
+  font-weight: bold;
+  font-family: sans-serif;
+}

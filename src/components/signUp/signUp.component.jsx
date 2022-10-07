@@ -30,15 +30,7 @@ const SignUp = () => {
             id="confirmPassword"
           />
 
-          <button>Log In</button>
-          <div className="social">
-            <div className="go">
-              <i className="fab fa-google"></i> Google
-            </div>
-            <div className="fb">
-              <i className="fab fa-facebook"></i> Facebook
-            </div>
-          </div>
+          <button class="sg1">Sign Up</button>
         </form>
       </div>
     </>

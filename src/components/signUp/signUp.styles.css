@@ -5,21 +5,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .signUpBody {
-  height: 100vh;
+  height: 140vh;
   width: 98.9vw;
-  background: url(https://source.unsplash.com/1920x2400?hdr,sunset,ocean);
+  background: url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhZGllbnQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.sg1 {
+  padding-top: 20px;
+}
+
 form {
-  height: 700px;
+  height: 670px;
   width: 400px;
   background-color: rgba(255, 255, 255, 0.03);
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 56%;
+  top: 73%;
   left: 50%;
   border-radius: 10px;
   backdrop-filter: blur(15px);
@@ -100,6 +105,6 @@ button {
 
 @media only screen and (max-width: 600px) {
   .signUpBody {
-    background: url(https://source.unsplash.com/1080x2400?sunset+birdeye+ocean);
+    background: url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhZGllbnQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60);
   }
 }

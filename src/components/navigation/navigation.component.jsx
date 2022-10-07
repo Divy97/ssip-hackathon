@@ -19,19 +19,7 @@ const NavigationBar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/admissions">Admissions</Link>
-            </li>
-            <li>
-              <Link to="/attendance">Attendance</Link>
-            </li>
-            <li>
-              <Link to="/results">Results</Link>
-            </li>
-            <li>
               <Link to="/payment">Fee Payment</Link>
-            </li>
-            <li>
-              <Link to="/eBooks">eBooks</Link>
             </li>
             <li>
               <Link to="/login">LogIn</Link>
