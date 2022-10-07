@@ -19,12 +19,12 @@
 }
 
 form {
-  height: 670px;
+  height: 800px;
   width: 400px;
   background-color: rgba(255, 255, 255, 0.03);
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 73%;
+  top: 85%;
   left: 50%;
   border-radius: 10px;
   backdrop-filter: blur(15px);

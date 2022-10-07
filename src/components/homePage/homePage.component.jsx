@@ -1,7 +1,6 @@
 import React from "react";
 import SideBar from "./sidebar/sideBar.component";
 import MainPage from "./mainPage/mainPage.component";
-import Chart from "./chart/chart.component";
 
 const HomePage = () => {
   return (
@@ -15,7 +14,6 @@ const HomePage = () => {
           <MainPage />
         </div>
       </div>
-      <Chart />
     </>
   );
 };

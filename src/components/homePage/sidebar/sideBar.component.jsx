@@ -36,9 +36,15 @@ const SideBar = () => {
                   </Link>
                 </li>
                 <li className="list">
-                  <Link href="/eBooks" className="nav-link">
+                  <Link to="/eBooks" className="nav-link">
                     <i className="bx bx-pie-chart-alt-2 icon"></i>
                     <span className="link">eBooks</span>
+                  </Link>
+                </li>
+                <li className="list">
+                  <Link to="/community" className="nav-link">
+                    <i className="bx bx-pie-chart-alt-2 icon"></i>
+                    <span className="link">Community</span>
                   </Link>
                 </li>
               </ul>

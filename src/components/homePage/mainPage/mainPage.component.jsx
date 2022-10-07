@@ -1,149 +1,53 @@
 import React, { useState } from "react";
-import "./mainPage.styles.css";
+import { Link } from "react-router-dom";
+import "./mainPage.styles.scss";
 
 const MainPage = () => {
-  const [feesPaid, setFeesPaid] = useState(10000);
-  const [pendingAssignments, setPendingAssignments] = useState(2);
-  const [completedAssignments, setCompletedAssignments] = useState(8);
-
   return (
     <>
-      <div
-        className="row"
-        style={{
-          marginLeft: "17rem",
-        }}
-      >
-        <div
-          className="col-sm-4"
-          style={{
-            width: "20rem",
-            height: "8rem",
-          }}
-        >
-          <div className="card">
-            <div className="card-body">
-              <h5
-                className="card-title"
-                style={{
-                  textAlign: "center",
-                }}
-              >
-                Fees Paid
-              </h5>
-              <p className="card-text">
-                <i
-                  class="fa-sharp fa-solid fa-indian-rupee-sign"
-                  style={{
-                    fontSize: "3rem",
-                  }}
-                ></i>
-                <h1
-                  style={{
-                    marginTop: "-50px",
-                    marginLeft: "4rem",
-                  }}
-                >
-                  {" "}
-                  {feesPaid}
-                </h1>
-              </p>
-            </div>
-          </div>
+      <div className="blog-card">
+        <div className="meta">
+          <div
+            className="photo"
+            style={{
+              background:
+                " url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)",
+            }}
+          ></div>
         </div>
-        <div
-          className="col-sm-4"
-          style={{
-            width: "20rem",
-            height: "5rem",
-          }}
-        >
-          <div className="card">
-            <div className="card-body">
-              <h5
-                className="card-title"
-                style={{
-                  textAlign: "center",
-                }}
-              >
-                Attendance
-              </h5>
-              <p className="card-text">
-                <i
-                  class="fa-solid fa-clipboard-user"
-                  style={{
-                    fontSize: "3rem",
-                  }}
-                ></i>
-                <span
-                  style={{
-                    fontWeight: "bold",
-                    fontSize: "2.2rem",
-                    textAlign: "center",
-                    marginLeft: "3rem",
-                  }}
-                >
-                  75%
-                </span>
-              </p>
-            </div>
-          </div>
+        <div className="description">
+          <h1>Guidance</h1>
+          <p>
+            {" "}
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum
+            dolorum architecto obcaecati enim dicta praesentium, quam nobis!
+            Neque ad aliquam facilis numquam. Veritatis, sit.
+          </p>
+          <p className="read-more">
+            <Link to="/guidance">Explore More</Link>
+          </p>
         </div>
-        <div
-          className="col-sm-4"
-          style={{
-            width: "20rem",
-            height: "5rem",
-          }}
-        >
-          <div className="card">
-            <div className="card-body">
-              <h5
-                className="card-title"
-                style={{
-                  textAlign: "center",
-                }}
-              >
-                {" "}
-                Assignments
-              </h5>
-              <p
-                className="card-text"
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "1.3rem",
-                }}
-              >
-                Pending:{" "}
-                <span
-                  style={{
-                    fontWeight: "normal",
-                    marginLeft: "3.2rem",
-                  }}
-                >
-                  {pendingAssignments}
-                </span>
-              </p>
-              <h5 className="card-title"></h5>
-              <p
-                className="card-text"
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "1.3rem",
-                }}
-              >
-                Completed:
-                <span
-                  style={{
-                    fontWeight: "normal",
-                    marginLeft: "2rem",
-                  }}
-                >
-                  {completedAssignments}
-                </span>
-              </p>
-            </div>
-          </div>
+      </div>
+      <div className="blog-card alt">
+        <div className="meta">
+          <div
+            className="photo"
+            style={{
+              background:
+                " url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)",
+            }}
+          ></div>
+        </div>
+        <div className="description">
+          <h1>Library</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum
+            dolorum architecto obcaecati enim dicta praesentium, quam nobis!
+            Neque ad aliquam facilis numquam. Veritatis, sit.
+          </p>
+          <p className="read-more">
+            <Link to="/eBooks">Explore More</Link>
+          </p>
         </div>
       </div>
     </>
